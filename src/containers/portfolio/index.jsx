@@ -11,7 +11,7 @@ const Portfolio = () => {
     return (
         <section id="portfolio" className="portfolio">
             <PageHeaderContent
-                headerText="My Portfolio"
+                headerText="My Projects"
                 icon={<BsSuitcaseLgFill size={40} />}
             />
             <div className="timeline">

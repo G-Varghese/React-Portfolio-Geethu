@@ -31,12 +31,9 @@ const Home = () => {
                 }}
               >
                 <div className="home_contact-me">
-                    <button onClick={handleNavigateToContactMePage}>Hire Me</button>
+                    <button onClick={handleNavigateToContactMePage}>CONTACT</button>
                 </div>
-                <div className="home_wish">
-                <br/> 
-                    <h2>Wishing you a very Merry Christmas</h2>
-                </div>
+
             </Animate>
             
         </section>

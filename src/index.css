@@ -3,10 +3,10 @@
 
 
 :root {
-    --yellow-theme-background-color: #116466;
-    --yellow-theme-main-color: #D9B08C;
-    --yellow-theme-sub-text-color: #D1E8E2;
-    --yellow-theme-nav-background-color: #2C3531;
+    --yellow-theme-background-color: #ffffff;
+    --yellow-theme-main-color: #5ebec4;
+    --yellow-theme-sub-text-color: #000000;
+    --yellow-theme-nav-background-color: #5ebec4;
 }
 
 *{
