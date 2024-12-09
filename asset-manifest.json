@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/React-Portfolio-Geethu/static/css/main.157bbc13.css",
-    "main.js": "/React-Portfolio-Geethu/static/js/main.d54d79bb.js",
+    "main.css": "/React-Portfolio-Geethu/static/css/main.fc756999.css",
+    "main.js": "/React-Portfolio-Geethu/static/js/main.5b7fcf42.js",
     "index.html": "/React-Portfolio-Geethu/index.html",
-    "main.157bbc13.css.map": "/React-Portfolio-Geethu/static/css/main.157bbc13.css.map",
-    "main.d54d79bb.js.map": "/React-Portfolio-Geethu/static/js/main.d54d79bb.js.map"
+    "main.fc756999.css.map": "/React-Portfolio-Geethu/static/css/main.fc756999.css.map",
+    "main.5b7fcf42.js.map": "/React-Portfolio-Geethu/static/js/main.5b7fcf42.js.map"
   },
   "entrypoints": [
-    "static/css/main.157bbc13.css",
-    "static/js/main.d54d79bb.js"
+    "static/css/main.fc756999.css",
+    "static/js/main.5b7fcf42.js"
   ]
 }
