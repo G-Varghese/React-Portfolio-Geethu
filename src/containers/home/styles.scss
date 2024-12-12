@@ -5,6 +5,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-left: 90px;
+    padding-right: 90px;
 
     &_text-wrapper {
         display: flex;
@@ -28,27 +30,11 @@
         display: flex;
         justify-content: center;
         margin-top: 15px;
-
-        button {
-            cursor: pointer;
-            padding: 10px 70px;
-            font-size: 2rem;
-            background: transparent;
-            color: var(--yellow-theme-main-color);
-            border: 1.5px solid var(--yellow-theme-main-color);
-            border-radius: 4px;
-            font-weight: 500;
-
-            &:hover {
-                background: var(--yellow-theme-main-color);
-                color: #000000
-            }
-        }
     }
 
-    &_wish {
-        color: var(--yellow-theme-main-color);
-        font-size: 16px;
+    .home_contact-me{
+        font-size:larger;
+        color:white;
     }
 }
 

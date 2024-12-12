@@ -1,5 +1,7 @@
-.resume {
+.portfolio {
     height: 100%;
+    padding-left: 90px;
+    padding-right: 90px;
 }
 
 .timeline {
@@ -88,6 +90,11 @@
 }
 
 @media only screen and (max-width:768px) {
+
+    .portfolio {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
     .timeline {
         flex-direction: column;
 

@@ -1,6 +1,6 @@
 export const skillsData = [
     {
-        label: "WEB & FRONT-END DEVELOPEMENT",
+        label: "WEB & FRONT-END ",
         data: [
             {
                 skillName: "HTML",
@@ -37,7 +37,7 @@ export const skillsData = [
         ],
     },
     {
-        label: "BACK-END DEVELOPMENT & DATABASE",
+        label: "BACK-END & DATABASE",
         data: [
             {
                 skillName: "Python",
@@ -79,7 +79,7 @@ export const skillsData = [
 
     },
     {
-        label: "TOOLS & PROJECT MANAGEMENT",
+        label: "PROJECT MANAGEMENT",
         data: [
             {
                 skillName: "GITHUB",

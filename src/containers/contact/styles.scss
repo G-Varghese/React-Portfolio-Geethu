@@ -1,13 +1,21 @@
+.contact {
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 40px; /* Adding some space from the top */
+    padding-bottom: 40px;
+}
+
 .contact-content {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    font-size:x-large
+    font-size: x-large;
+
 }
 
 .contact-label {
-    color: var( --yellow-theme-sub-text-color);
+    color: var(--yellow-theme-sub-text-color);
 }
 
 .contact-content-wrapper {
@@ -49,7 +57,56 @@
     text-decoration: underline; /* Underline on hover */
 }
 
-
 .contact-item svg {
     color: var(--yellow-theme-main-color);
+}
+
+/* Media Query for screens with max-width of 768px */
+@media only screen and (max-width: 768px) {
+    /* Adjust padding for smaller screens */
+    .contact {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* Stack the content vertically */
+    .contact-content {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: medium; /* Adjust font size for readability */
+    }
+
+    .contact-content-wrapper {
+        width: 100%;
+        max-width: 100%; /* Full width on smaller screens */
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+
+    /* Adjust the size of icons */
+    .contact-item svg {
+        font-size: 18px; /* Smaller icons for mobile */
+    }
+
+    .contact-item .contact-label {
+        font-size: 14px; /* Reduce label font size for smaller screens */
+    }
+
+    .contact-item .contact-value {
+        font-size: 14px; /* Reduce value font size */
+    }
+
+    /* Make links more responsive */
+    .contact-item a {
+        font-size: 14px; /* Smaller font for links */
+    }
+
+    /* Adjust box padding for smaller screens */
+    .contact-details-box {
+        padding: 15px; /* Reduce padding */
+    }
+
+    /* Adjust margins for list items */
+    .contact-item {
+        margin-bottom: 10px;
+    }
 }

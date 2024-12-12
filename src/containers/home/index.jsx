@@ -1,21 +1,15 @@
 import React from 'react';
 import './styles.scss';
-import { useNavigate } from 'react-router-dom';
 import { Animate } from 'react-simple-animate';
 
 const Home = () => {
 
-    const navigate = useNavigate();
-
-    const handleNavigateToContactMePage = () => {
-        navigate("/contact")
-    }
 
     return (
         <section id="home" className="home">
             <div className="home_text-wrapper">
                 <h1>
-                    Hello, I'm Geethu<br />
+                    Kia Ora, I'm Geethu<br />
                     Software Developer
 
                 </h1>
@@ -30,9 +24,7 @@ const Home = () => {
                     transform: "translateX(0px)",   // Corrected "tranform" to "transform"
                 }}
               >
-                <div className="home_contact-me">
-                    <button onClick={handleNavigateToContactMePage}>CONTACT</button>
-                </div>
+                
 
             </Animate>
             

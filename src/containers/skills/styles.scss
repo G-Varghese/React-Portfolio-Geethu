@@ -1,4 +1,6 @@
 .skills {
+    padding-left: 120px;
+    padding-right: 120px;
 
     &_content-wrapper {
         display: flex;
@@ -62,8 +64,11 @@
 
 @media only screen and (max-width:768px){
     .skills {
-        &_content-wrapper{
-            flex-direction:column;
+        padding-left: 0px;
+        padding-right: 0px;
+
+        &_content-wrapper {
+            flex-direction: column;
         }
     }
     .skills_content-wrapper_inner-content_progressbar-container{

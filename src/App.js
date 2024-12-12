@@ -11,6 +11,7 @@ import Portfolio from './containers/portfolio';
 import Contact from './containers/contact';
 import Navbar from './components/navBar/index';
 import ParticlesComponent from './utils.js/particles';  // Correct path, make sure the file is in utils folder
+import Footer from './components/Footer/index';
 
 function App() {
     const location = useLocation();  // Corrected the capitalization here to 'location'
@@ -45,7 +46,7 @@ function App() {
                 </Routes>
 
             </div>
-
+            <Footer/>
             
         </div>
     );
