@@ -25,7 +25,7 @@ const personalDetails = [
     },
 ];
 
-const jobSummary = 'Passionate software developer with a Masters degree in Computer Applications, experienced in both technical and teaching aspects of the industry. Skilled in a wide range of programming languages and technologies. Adept at simplifying complex concepts and fostering collaborative learning. Seeks new opportunities to develop oneself with new technologies and contribute to the industry.';
+const jobSummary = 'Passionate software enginner with a Masters degree in Computer Applications, experienced in both technical and teaching aspects of the industry. Skilled in a wide range of programming languages and technologies. Adept at simplifying complex concepts and fostering collaborative learning. Seeks new opportunities to develop oneself with new technologies and contribute to the industry.';
 
 const About = () => {
     return (

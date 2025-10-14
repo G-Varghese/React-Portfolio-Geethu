@@ -1,10 +1,10 @@
 export const data = {
     experience: [
         {
-            title: "Bachelor of Software Enginerring Teacher",
+            title: "Bachelor of Software Enginerring Lecturer",
             subTitle: "Yoobee College, Christchurch",
             description:
-                "Teaching OOPs, C++, C#, .NET, WPF, LINQ, UX principles, wireframes,database management, Networking and providing practical assistance based on industry standards. Using Power BI to manage student records. Marking and attendanceon SELMA, maintained educational resources on BlackBoard, facilitated communication via Microsoft Teams, as part of various administrative tasks.",
+                "Teaching SDLC,OOPs, C++, C#, .NET, WPF, LINQ, UX principles, wireframes,database management, Networking and providing practical assistance based on industry standards. Using Power BI to manage student records. Marking and attendanceon SELMA, maintained educational resources on BlackBoard, facilitated communication via Microsoft Teams, as part of various administrative tasks.",
             date: " 2024 - Present",
         },
         {
